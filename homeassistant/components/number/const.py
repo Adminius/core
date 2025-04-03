@@ -174,7 +174,7 @@ class NumberDeviceClass(StrEnum):
     Use this device class for sensors measuring energy by distance, for example the amount
     of electric energy consumed by an electric car.
 
-    Unit of measurement: `kWh/100km`, `mi/kWh`, `km/kWh`
+    Unit of measurement: `Wh/km`, `Wh/mi`, `kWh/100km`, `mi/kWh`, `km/kWh`
     """
 
     ENERGY_STORAGE = "energy_storage"
